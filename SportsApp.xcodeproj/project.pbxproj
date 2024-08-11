@@ -101,14 +101,16 @@
 		26D014722C695D3D00642A52 /* SportsApp */ = {
 			isa = PBXGroup;
 			children = (
+				26D014AC2C695E2300642A52 /* DB */,
+				26D014A62C695D4800642A52 /* Services */,
+				26D014A92C695D7600642A52 /* Modules */,
+				26D014A82C695D6F00642A52 /* Model */,
+				26D014A72C695D6200642A52 /* View */,
 				26D014732C695D3D00642A52 /* AppDelegate.swift */,
 				26D014752C695D3D00642A52 /* SceneDelegate.swift */,
 				26D014772C695D3D00642A52 /* ViewController.swift */,
-				26D014792C695D3D00642A52 /* Main.storyboard */,
 				26D0147F2C695D4000642A52 /* Assets.xcassets */,
-				26D014812C695D4000642A52 /* LaunchScreen.storyboard */,
 				26D014842C695D4000642A52 /* Info.plist */,
-				26D0147C2C695D3D00642A52 /* SportsApp.xcdatamodeld */,
 			);
 			path = SportsApp;
 			sourceTree = "<group>";
@@ -128,6 +130,60 @@
 				26D014992C695D4100642A52 /* SportsAppUITestsLaunchTests.swift */,
 			);
 			path = SportsAppUITests;
+			sourceTree = "<group>";
+		};
+		26D014A62C695D4800642A52 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				26D014AB2C695D9500642A52 /* Remote */,
+				26D014AA2C695D8600642A52 /* Local */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		26D014A72C695D6200642A52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				26D014792C695D3D00642A52 /* Main.storyboard */,
+				26D014812C695D4000642A52 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		26D014A82C695D6F00642A52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		26D014A92C695D7600642A52 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		26D014AA2C695D8600642A52 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		26D014AB2C695D9500642A52 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		26D014AC2C695E2300642A52 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				26D0147C2C695D3D00642A52 /* SportsApp.xcdatamodeld */,
+			);
+			path = DB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
